@@ -1,5 +1,4 @@
 # DeVA: Decoupled Variance Adaptation
----
 <!-- ![NanoGPT 275M pretraining Results on FineWeb.](assets/deva_nanogpt_val_loss_curves.png) -->
 
 <p align="center">
@@ -27,7 +26,6 @@ deva = DeVAEuclideanNorm(
     lr = 1e-3,
     betas=(0.9,0.99), 
     weight_decay=0.0, 
-    lr=lr, 
     ...
 )
 ```
@@ -41,7 +39,6 @@ deva = DeVASchattenNorm(
     lr = 1e-3,
     betas=(0.95,0.95), 
     weight_decay=0.0, 
-    lr=lr, 
     precondition_frequency=10
     ...
 )
