@@ -1,6 +1,10 @@
 # DeVA: Decoupled Variance Adaptation
+---
+<!-- ![NanoGPT 275M pretraining Results on FineWeb.](assets/deva_nanogpt_val_loss_curves.png) -->
 
-[NanoGPT 275M pretraining Results on FineWeb.](assets/deva_nanogpt_val_loss_curves.png)
+<p align="center">
+  <img src="assets/deva_nanogpt_val_loss_curves.png" alt="NanoGPT 275M pretraining Results on FineWeb." width="500"/>
+</p>
 
 This repository contains the official implementation of the **DeVA (Decoupled Variance Adaptation)** framework. DeVA provides a unified perspective on adaptive optimization, recovering **Adam** in the vector case and extending to **Adaptive Spectral Descent** for matrix optimization.
 
