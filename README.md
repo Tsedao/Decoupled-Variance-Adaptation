@@ -7,7 +7,9 @@
 
 This repository contains the official implementation of the **DeVA (Decoupled Variance Adaptation)** framework. DeVA provides a unified perspective on adaptive optimization, recovering **Adam** in the vector case and extending to **Adaptive Spectral Descent** for matrix optimization.
 
-The framework is built on the principle of decoupling variance and scale-invariant from adaptive gradient methods, providing tighter convergence guarantees than standard non-adaptive scale-invariant methods, like SignSGD.
+The framework is built on the principle of decoupling variance and scale-invariant from adaptive gradient methods, providing tighter convergence guarantees than standard non-adaptive scale-invariant methods, like SignSGD. 
+
+Paper link: https://arxiv.org/pdf/2602.06880
 
 ## 🚀 Features
 
@@ -55,8 +57,8 @@ If you find this framework or the spectral descent method useful in your researc
 ```
 @article{deva2026,
   title={Decoupling Variance and Scale-Invariant Updates in Adaptive Gradient Descent for Unified Vector and Matrix Optimization},
-  author={Zitao Song},
-  journal={arXiv preprint},
+  author={Zitao Song, Cedar Site Bai, Zhe Zhang, Brian Bullins, David F. Gleich},
+  journal={arXiv preprint:https://arxiv.org/pdf/2602.06880},
   year={2026}
 }
 ```
